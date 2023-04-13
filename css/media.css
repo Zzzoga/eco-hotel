@@ -1981,6 +1981,9 @@
 		text-align: center;
 		width: 100%;
 	}
+	.about h2.section__title {
+	    color: #2a2a2a;
+	}
 	.about .wrapper {
 		display: flex;
 		justify-content: flex-start;
@@ -2125,6 +2128,8 @@
 		list-style: none;
 		padding-left: 0;
 		position: relative;
+		/* padding: 5px 0; */
+		/* border-bottom: 1px solid #c5a97a; */
 	}
 	ul.investing__list li::before {
 		list-style: none;
