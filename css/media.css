@@ -1378,6 +1378,9 @@
 		color: #e0c08b;
 		text-transform: uppercase;
 	}
+	.modal__nav .nav__link:hover {
+		border: none;
+	}
 	.body__bg {
 		position: absolute;
 		top: 0;
