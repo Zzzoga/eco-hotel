@@ -53,12 +53,14 @@ $(window).load(function() {
 			document.querySelector('.modal__menu').style.transform = 'translateY(0%)'
 		}, 500)
 	})
-	document.querySelector('.modal__nav .nav__link').addEventListener('click', () => {
-		document.querySelector('.modal__menu').style.transform = 'translateY(-100%)'
-		setTimeout(()=> {
-			document.querySelector('.modal__menu').style.display = 'none'
-		}, 500)
-	})
+	document.querySelectorAll('.modal__nav .nav__link').forEach(element => {
+		element.addEventListener('click', () => {
+			document.querySelector('.modal__menu').style.transform = 'translateY(-100%)'
+			setTimeout(()=> {
+				document.querySelector('.modal__menu').style.display = 'none'
+			}, 500)
+		})
+	});
 
 	$(".loader_inner").fadeOut();
 	$(".loader").delay(400).fadeOut("slow");
