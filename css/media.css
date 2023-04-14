@@ -67,7 +67,7 @@
 		font-family: "Gotham", sans-serif;
 		overflow-x: hidden;
 		scrollbar-color: #999 #333;
-		background-color: #1b1818;
+		background-color: #161212;
 	}
 	body::-webkit-scrollbar {
 		width: 5px; /* в основном для вертикальных полос прокрутки */
@@ -178,7 +178,7 @@
 	}
 	img.footer__bg {
 		position: absolute;
-		bottom: -43px;
+		bottom: -100px;
 		left: -106px;
 		max-height: 700px;
 		z-index: -1;
@@ -218,7 +218,7 @@
 		position: absolute;
 		bottom: 0;
 		max-height: 650px;
-		right: -300px;
+		right: -200px;
 	}
 	.about {
 		max-width: 100%;
@@ -324,11 +324,11 @@
 		flex-direction: column;
 	}
 	.investing__btn.btn {
-		background: #e0c08b;
+		background: #161212;
 		padding: 20px 30px;
 		margin-top: 30px;
 		border-radius: 10px;
-		color: #1b1818;
+		color: #e0c08b;
 		font-size: 16px;
 		text-transform: uppercase;
 		font-family: 'Gotham Medium';
@@ -338,13 +338,13 @@
 		border: 3px solid transparent;
 	}
 	.investing__btn.btn:hover {
-		border: 3px solid #e0c08b;
+		border: 3px solid #161212;
 		background: transparent;
-		color: #e0c08b;
+		color: #161212;
 	}
 	.investing__item {
-		color: #fff;
-		background: transparent;
+		color: #161212;
+		background: #e0c08b;
 		padding: 50px;
 		margin: 0 0 30px;
 		max-width: 100%;
@@ -358,7 +358,7 @@
 	}
 	h3.investing__title {
 		font-family: 'Druk', sans-serif;
-		color: #e0c08b;
+		color: #161212;
 		text-transform: uppercase;
 	}
 	ul.investing__list {
@@ -369,6 +369,7 @@
 		list-style: none;
 		padding-left: 20px;
 		position: relative;
+		/* color: #161212; */
 	}
 	ul.investing__list li::before {
 		list-style: none;
@@ -376,7 +377,7 @@
 		content: '';
 		width: 5px;
 		height: 5px;
-		background: #e0c08b;
+		background: #161212;
 		border-radius: 50%;
 		position: absolute;
 		left: 0;
@@ -393,7 +394,7 @@
 		background: #e0c08b;
 	}
 	footer.footer h2.section__title {
-		color: #2a2a2a;
+		color: #161212;
 	}
 	.contacts__items {
 		margin: 50px 0;
@@ -402,7 +403,7 @@
 	}
 	a.contact__item {
 		padding: 20px;
-		background: #2a2a2a;
+		background: #161212;
 		border-radius: 10px;
 		text-decoration: none;
 		color: #e0c08b;
@@ -424,12 +425,12 @@
 	}
 	a.contact__item.telega {
 		background: url(../img/tg.svg) no-repeat 20px center;
-		background-color: #2a2a2a;
+		background-color: #161212;
 		padding-left: 70px;
 	}
 	a.contact__item.whats {
 		background: url(../img/wh.svg) no-repeat 20px center;
-		background-color: #2a2a2a;
+		background-color: #161212;
 		padding-left: 70px;
 	}
 }
@@ -501,7 +502,7 @@
 		font-family: "Gotham", sans-serif;
 		overflow-x: hidden;
 		scrollbar-color: #999 #333;
-		background-color: #1b1818;
+		background-color: #161212;
 	}
 	body::-webkit-scrollbar {
 		width: 5px; /* в основном для вертикальных полос прокрутки */
@@ -524,9 +525,10 @@
 	.body__bg {
 		position: absolute;
 		top: 0;
-		left: 0;
+		left: 50%;
 		z-index: -1;
-		max-width: 100%;
+		/* max-width: 120%; */
+		transform: translateX(-50%);
 	}
 	header.header {
 		padding: 20px 0;
@@ -567,6 +569,7 @@
 		height: 100vh;
 		background: none;
 		max-width: 100%;
+		overflow: hidden;
 	}
 	h1.top__title {
 		font-family: 'Druk', sans-serif;
@@ -613,7 +616,7 @@
 	}
 	img.footer__bg {
 		position: absolute;
-		bottom: -43px;
+		bottom: -120px;
 		left: -140px;
 		max-height: 620px;
 		z-index: -1;
@@ -653,8 +656,8 @@
 	img.about__bg {
 		position: absolute;
 		bottom: 0;
-		max-height: 600px;
-		right: -300px;
+		max-height: 570px;
+		right: -230px;
 	}
 	.about {
 		max-width: 100%;
@@ -760,11 +763,11 @@
 		flex-direction: column;
 	}
 	.investing__btn.btn {
-		background: #e0c08b;
+		background: #161212;
 		padding: 20px 30px;
 		margin-top: 30px;
 		border-radius: 10px;
-		color: #1b1818;
+		color: #e0c08b;
 		font-size: 16px;
 		text-transform: uppercase;
 		font-family: 'Gotham Medium';
@@ -774,13 +777,13 @@
 		border: 3px solid transparent;
 	}
 	.investing__btn.btn:hover {
-		border: 3px solid #e0c08b;
+		border: 3px solid #161212;
 		background: transparent;
-		color: #e0c08b;
+		color: #161212;
 	}
 	.investing__item {
-		color: #fff;
-		background: transparent;
+		color: #161212;
+		background: #e0c08b;
 		padding: 50px;
 		margin: 0 0 30px;
 		max-width: 100%;
@@ -794,7 +797,7 @@
 	}
 	h3.investing__title {
 		font-family: 'Druk', sans-serif;
-		color: #e0c08b;
+		color: #161212;
 		text-transform: uppercase;
 	}
 	ul.investing__list {
@@ -812,7 +815,7 @@
 		content: '';
 		width: 5px;
 		height: 5px;
-		background: #e0c08b;
+		background: #161212;
 		border-radius: 50%;
 		position: absolute;
 		left: 0;
@@ -829,7 +832,7 @@
 		background: #e0c08b;
 	}
 	footer.footer h2.section__title {
-		color: #2a2a2a;
+		color: #161212;
 	}
 	.contacts__items {
 		margin: 50px 0;
@@ -838,7 +841,7 @@
 	}
 	a.contact__item {
 		padding: 20px;
-		background: #2a2a2a;
+		background: #161212;
 		border-radius: 10px;
 		text-decoration: none;
 		color: #e0c08b;
@@ -860,12 +863,12 @@
 	}
 	a.contact__item.telega {
 		background: url(../img/tg.svg) no-repeat 20px center;
-		background-color: #2a2a2a;
+		background-color: #161212;
 		padding-left: 70px;
 	}
 	a.contact__item.whats {
 		background: url(../img/wh.svg) no-repeat 20px center;
-		background-color: #2a2a2a;
+		background-color: #161212;
 		padding-left: 70px;
 	}
 }
@@ -937,7 +940,7 @@
 		font-family: "Gotham", sans-serif;
 		overflow-x: hidden;
 		scrollbar-color: #999 #333;
-		background-color: #1b1818;
+		background-color: #161212;
 	}
 	body::-webkit-scrollbar {
 		width: 5px; /* в основном для вертикальных полос прокрутки */
@@ -960,7 +963,7 @@
 	.body__bg {
 		position: absolute;
 		top: 0;
-		left: 0;
+		left: 50%;
 		z-index: -1;
 		max-width: 100%;
 	}
@@ -1092,7 +1095,7 @@
 		position: absolute;
 		bottom: 0;
 		max-height: 500px;
-		right: -330px;
+		right: -230px;
 	}
 	.about {
 		max-width: 100%;
@@ -1429,7 +1432,7 @@
 		background: none;
 		max-width: 100%;
 		background: url(../img/mob__bg.png) no-repeat center top;
-		background-size: contain;
+		background-size: 100%;
 	}
 	h1.top__title {
 		font-family: 'Druk', sans-serif;
@@ -1520,7 +1523,7 @@
 		position: absolute;
 		bottom: 0;
 		max-height: 470px;
-		right: -300px;
+		right: -150px;
 	}
 	.about {
 		max-width: 100%;
@@ -1642,7 +1645,7 @@
 		flex-direction: column;
 	}
 	.investing__btn.btn {
-		background: #292929;
+		background: #161212;
 		padding: 12px 20px;
 		margin-top: 30px;
 		border-radius: 10px;
@@ -1676,7 +1679,7 @@
 	}
 	h3.investing__title {
 		font-family: 'Druk', sans-serif;
-		color: #292929;
+		color: #161212;
 		text-transform: uppercase;
 	}
 	ul.investing__list {
@@ -1694,7 +1697,7 @@
 		content: '';
 		width: 5px;
 		height: 5px;
-		background: #e0c08b;
+		background: #161212;
 		border-radius: 50%;
 		position: absolute;
 		left: 0;
@@ -1711,7 +1714,7 @@
 		background: #e0c08b;
 	}
 	footer.footer h2.section__title {
-		color: #2a2a2a;
+		color: #161212;
 		font-size: 24px;
 	}
 	.contacts__items {
@@ -1723,7 +1726,7 @@
 	}
 	a.contact__item {
 		padding: 20px;
-		background: #2a2a2a;
+		background: #161212;
 		border-radius: 10px;
 		text-decoration: none;
 		color: #e0c08b;
@@ -1749,7 +1752,7 @@
 	}
 	a.contact__item.telega {
 		background: url(../img/tg.svg) no-repeat 20px center;
-		background-color: #2a2a2a;
+		background-color: #161212;
 		padding-left: 70px;
 		font-size: 14px;
 		display: flex;
@@ -1757,7 +1760,7 @@
 	}
 	a.contact__item.whats {
 		background: url(../img/wh.svg) no-repeat 20px center;
-		background-color: #2a2a2a;
+		background-color: #161212;
 		padding-left: 70px;
 		display: flex;
 		align-items: center;
@@ -1889,7 +1892,7 @@
 		padding: 12px 20px;
 		margin-top: 20px;
 		border-radius: 10px;
-		color: #1b1818;
+		color: #161212;
 		font-size: 14px;
 		text-transform: uppercase;
 		font-family: 'Gotham Medium';
@@ -1916,8 +1919,8 @@
 	}
 	img.footer__bg {
 		position: absolute;
-		bottom: -43px;
-		left: -110%;
+		bottom: -82px;
+		left: -32%;
 		max-height: 100%;
 		z-index: -1;
 	}
@@ -1960,7 +1963,9 @@
 		position: absolute;
 		bottom: 0;
 		max-height: 380px;
-		right: -90px;
+		right: auto;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 	.about {
 		max-width: 100%;
@@ -1985,7 +1990,7 @@
 		width: 100%;
 	}
 	.about h2.section__title {
-	    color: #2a2a2a;
+	    color: #161212;
 	}
 	.about .wrapper {
 		display: flex;
@@ -2085,7 +2090,7 @@
 		flex-direction: column;
 	}
 	.investing__btn.btn {
-		background: #292929;
+		background: #161212;
 		padding: 12px 20px;
 		margin-top: 30px;
 		border-radius: 10px;
@@ -2099,9 +2104,9 @@
 		border: 3px solid transparent;
 	}
 	.investing__btn.btn:hover {
-		border: 3px solid #292929;
+		border: 3px solid #161212;
 		background: transparent;
-		color: #292929;
+		color: #161212;
 	}
 	.investing__item {
 		color: #282828;
@@ -2119,7 +2124,7 @@
 	}
 	h3.investing__title {
 		font-family: 'Druk', sans-serif;
-		color: #292929;
+		color: #161212;
 		text-transform: uppercase;
 		font-size: 16px;
 	}
@@ -2158,7 +2163,7 @@
 		background: #e0c08b;
 	}
 	footer.footer h2.section__title {
-		color: #2a2a2a;
+		color: #161212;
 		font-size: 20px;
 	}
 	.contacts__items {
@@ -2170,7 +2175,7 @@
 	}
 	a.contact__item {
 		padding: 20px;
-		background: #2a2a2a;
+		background: #161212;
 		border-radius: 10px;
 		text-decoration: none;
 		color: #e0c08b;
@@ -2196,7 +2201,7 @@
 	}
 	a.contact__item.telega {
 		background: url(../img/tg.svg) no-repeat 20px center;
-		background-color: #2a2a2a;
+		background-color: #161212;
 		padding-left: 70px;
 		font-size: 14px;
 		display: flex;
@@ -2204,7 +2209,7 @@
 	}
 	a.contact__item.whats {
 		background: url(../img/wh.svg) no-repeat 20px center;
-		background-color: #2a2a2a;
+		background-color: #161212;
 		padding-left: 70px;
 		display: flex;
 		align-items: center;
@@ -2225,7 +2230,7 @@
 		background: none;
 		max-width: 100%;
 		background: url(../img/mob__bg.png) no-repeat center top;
-		background-size: 150%;
+		background-size: 130%;
 	}
 }
 
